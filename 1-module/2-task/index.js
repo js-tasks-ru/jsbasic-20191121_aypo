@@ -10,6 +10,10 @@ function print(text) {
  * чтобы функция sayHello работала корректно
  */
 function isValid(name) {
+  let compareLengthName = +name.length;
+  let spaceIncName = name.includes(` `);
+  return compareLengthName < 4 ? false : 
+    spaceIncName == false ? true : false;
 }
 
 function sayHello() {
