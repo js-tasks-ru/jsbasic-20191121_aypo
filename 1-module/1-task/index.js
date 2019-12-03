@@ -32,3 +32,12 @@ function pow(x, n) {
   let result = x ** n;
   return result;
 }
+
+// 3 Вариат
+// function pow(x, n) {
+//   let stepen = n< 0 ? console.log(`нужно больше 0`) :
+//     (n % 1 != 0) ? console.log(`нужно целое число`) :
+//       (x ** n);
+//   return stepen;
+// }
+// pow();
