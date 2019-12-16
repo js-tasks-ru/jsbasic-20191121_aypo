@@ -3,6 +3,7 @@
  * @param {Object} obj - клонируем объект
  * @returns {Object}
  */
+
 function clone(obj) {
   const result = {};
 
