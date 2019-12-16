@@ -20,8 +20,4 @@ function clone(obj) {
   }
 
   return result;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 5552599840aca262d66a09d9a6e4b33107be4755
